@@ -1,7 +1,7 @@
 <form action="{% url 'search:resp' %}" method="post">
 {% csrf_token %}
-    Search:
+    搜索：
     <input type="text" name="search" value=""><br>
-    <input type="submit" value="Vote" />
+    <input type="submit" value="确定" />
 </form>
 {{keywd}}

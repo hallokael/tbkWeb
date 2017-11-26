@@ -1,1 +1,7 @@
-{{keywd}}
+{{keywd}}：<br>
+{% for i in a %}
+    <tr>
+        {{i.title}}
+        <img src={{i.pict_url}}>
+    <tr/><br><br>
+{% endfor %}
